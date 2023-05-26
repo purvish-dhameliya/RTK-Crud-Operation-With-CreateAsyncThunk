@@ -1,0 +1,23 @@
+.modalBackground {
+  position: fixed;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 0.9;
+}
+.modalContainer {
+  background-color: black;
+
+  color: aliceblue;
+  box-shadow: 0рх 0рх 0px #8882;
+  padding: 10px;
+  border-radius: 10px;
+  height: 300рx;
+  width: 300px;
+}
